@@ -3,11 +3,8 @@
 # language setting
     language: python
 # version numbers
-  python:
-   - "2.7"
-   - "3.2"
-   - "3.3"
-   - "pypy"
+    python:
+    - "2.7"
 # command to run tests
-  script: python test.py
-  
+    script: python test.py
+    
