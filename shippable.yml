@@ -8,3 +8,6 @@
    - "3.2"
    - "3.3"
    - "pypy"
+# command to run tests
+  python: python test.py
+  
