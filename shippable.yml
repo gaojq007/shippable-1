@@ -9,5 +9,5 @@
    - "3.3"
    - "pypy"
 # command to run tests
-  python: nosetests test.py
+  script: nosetests test.py
   
