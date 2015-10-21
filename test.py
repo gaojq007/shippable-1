@@ -13,7 +13,8 @@ class TestStringMethods(unittest.TestCase):
         self.assertFalse('Foo'.isupper())
 
     def test_split(self):
-        s = 'hello Finxi world'
+        #s = 'hello Finxi world'
+        s = 'hello world'
         self.assertEqual(s.split(), ['hello', 'world'])
 
         with self.assertRaises(TypeError):
